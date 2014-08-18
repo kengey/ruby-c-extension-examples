@@ -2,7 +2,7 @@
 #include "RubyUtils/RubyUtils.h"
 
 
-VALUE hello_world() {
+VALUE hello_world(VALUE self) {
   return GetRubyInterface("Hello World!");
 }
 
